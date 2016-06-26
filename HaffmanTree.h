@@ -68,7 +68,7 @@ protected:
 		};
 
 		Heap<Node*,Nodecompare>minHeap;
-       //½¨Ğ¡¶Ñ,·½±ãÃ¿´Î¶¼È¡×îĞ¡µÄÁ½¸öÊı×Ö
+       //å»ºå°å †,æ–¹ä¾¿æ¯æ¬¡éƒ½å–æœ€å°çš„ä¸¤ä¸ªæ•°å­—
 		for(size_t i=0;i<n;i++)
 		{
 		  if(a[i] != invalid)
@@ -97,17 +97,17 @@ protected:
 	Node* _root;
 };
 
-//1Í³¼Æ×Ö·û³öÏÖµÄ´ÎÊı
-//2¹¹½¨¹ş¸¥ÂüÊ÷
-//3Éú³É¹ş¸¥Âü±àÂë
-//ÎÄ¼şÑ¹Ëõ
+//1ç»Ÿè®¡å­—ç¬¦å‡ºç°çš„æ¬¡æ•°
+//2æ„å»ºå“ˆå¼—æ›¼æ ‘
+//3ç”Ÿæˆå“ˆå¼—æ›¼ç¼–ç 
+//æ–‡ä»¶å‹ç¼©
 
 typedef unsigned long long longType;
 struct charInfo
 {
-	unsigned char _ch;//×Ö·û
-	longType _count;//×Ö·û³öÏÖµÄ´ÎÊı
-	string _code;//Éú³ÉµÄ¹ş¸¥Âü±àÂë
+	unsigned char _ch;//å­—ç¬¦
+	longType _count;//å­—ç¬¦å‡ºç°çš„æ¬¡æ•°
+	string _code;//ç”Ÿæˆçš„å“ˆå¼—æ›¼ç¼–ç 
 
 	charInfo():_ch(0)
 		      ,_count(0)
@@ -134,7 +134,7 @@ struct charInfo
 	}
 };
 
-//ÎÄ¼şÑ¹Ëõ
+//æ–‡ä»¶å‹ç¼©
 class FileCompress
 {
 	
@@ -148,14 +148,14 @@ public:
 		}
 	}
 public:
-	//ÎÄ¼şÑ¹Ëõ
+	//æ–‡ä»¶å‹ç¼©
 	void Compress(const char* filename)
 	{
-		//ÒÔ¶ş½øÖÆµÄ·½Ê½½øĞĞ¶Á£¬·ñÔòÒÔÆÕÍ¨ÎÄ±¾¶ÁµÄ·½Ê½±àÒëÆ÷»á»á¶ÔËü½øĞĞ´¦Àí
+		//ä»¥äºŒè¿›åˆ¶çš„æ–¹å¼è¿›è¡Œè¯»ï¼Œå¦åˆ™ä»¥æ™®é€šæ–‡æœ¬è¯»çš„æ–¹å¼ç¼–è¯‘å™¨ä¼šä¼šå¯¹å®ƒè¿›è¡Œå¤„ç†
 		FILE* fOut=fopen(filename,"rb");
 		assert(fOut);
 
-		//1Í³¼ÆÎÄ¼şÖĞ×Ö·û³öÏÖµÄ´ÎÊı
+		//1ç»Ÿè®¡æ–‡ä»¶ä¸­å­—ç¬¦å‡ºç°çš„æ¬¡æ•°
 		char ch=fgetc(fOut);
 		while(!feof(fOut))
 		{		
@@ -163,17 +163,17 @@ public:
 			ch=fgetc(fOut);
 		}
 
-	//2¹¹½¨¹ş¸¥ÂüÊ÷
+	//2æ„å»ºå“ˆå¼—æ›¼æ ‘
 	charInfo invalid(0);
 	HaffmanTree<charInfo>tree(_infos,256,invalid);
-	//3Éú³É¹ş¸¥Âü±àÂë£¨ÒÔµİ¹éµÄ·½Ê½£©
+	//3ç”Ÿæˆå“ˆå¼—æ›¼ç¼–ç ï¼ˆä»¥é€’å½’çš„æ–¹å¼ï¼‰
 	string code;
 	GenerateHaffmanCode(tree.GetrootNode(),code);
-	//4¶ÁÔ´ÎÄ¼ş×Ö·û½øĞĞÑ¹Ëõ£¬½«¹ş¸¥Âü±àÂëĞ´½ø¶ÔÓ¦µÄ±ÈÌØÎ»
+	//4è¯»æºæ–‡ä»¶å­—ç¬¦è¿›è¡Œå‹ç¼©ï¼Œå°†å“ˆå¼—æ›¼ç¼–ç å†™è¿›å¯¹åº”çš„æ¯”ç‰¹ä½
 	string Compressfilename=filename;
 	Compressfilename+=".compress";
 	FILE*fin=fopen(Compressfilename.c_str(),"wb");
-	//½«ÎÄ¼şÖ¸ÕëÅ²µ½ÎÄ¼şÍ·²¿
+	//å°†æ–‡ä»¶æŒ‡é’ˆæŒªåˆ°æ–‡ä»¶å¤´éƒ¨
 	fseek(fOut,0,SEEK_SET);
 	ch=fgetc(fOut);
 	char value=0;
@@ -190,7 +190,7 @@ public:
 			  }
 			/*  else
 			  {}	*/  
-			  //µ±Âú8Î»µÄÊ±ºò½«¹ş¸¥Âü±àÂëĞ´½ø¶ÔÓ¦µÄÎÄ¼ş£¬È»ºó¼ÌĞø¶ÁÈ¡ºóĞøµÄ¹ş¸¥Âü±àÂë
+			  //å½“æ»¡8ä½çš„æ—¶å€™å°†å“ˆå¼—æ›¼ç¼–ç å†™è¿›å¯¹åº”çš„æ–‡ä»¶ï¼Œç„¶åç»§ç»­è¯»å–åç»­çš„å“ˆå¼—æ›¼ç¼–ç 
 			  if(++pos==8)
 			  {
 			  fputc(value,fin);
@@ -204,7 +204,7 @@ public:
 		 }
 		  
 
-		  //Èô×îºó¼¸Î»¹ş¸¥Âü±àÂë²»Âú8Î»£¬ÔòĞèÒª½øĞĞ´¦Àí£¬Ğ´ÅäÖÃÎÄ¼ş
+		  //è‹¥æœ€åå‡ ä½å“ˆå¼—æ›¼ç¼–ç ä¸æ»¡8ä½ï¼Œåˆ™éœ€è¦è¿›è¡Œå¤„ç†ï¼Œå†™é…ç½®æ–‡ä»¶
 		  if(pos!=0)
 		  {
 			  value<<=(7-pos);
@@ -212,7 +212,7 @@ public:
 		  }
 
 
-		//Ğ´ÅäÖÃÎÄ¼ş
+		//å†™é…ç½®æ–‡ä»¶
 		  string configfilename=filename;
 		  configfilename+=".config";
 		  FILE* finconfig=fopen(configfilename.c_str(),"wb");
@@ -226,11 +226,11 @@ public:
 		       str+=_infos[i]._ch;
 			   str+=",";
 			   str+=_itoa(_infos[i]._count,buffer,10);
-			   //itoa°ÑÕûÊı_count×ª»¯³É×Ö·û´æÈëbufferÖĞ£¬10½øÖÆµÄĞÎÊ½
+			   //itoaæŠŠæ•´æ•°_countè½¬åŒ–æˆå­—ç¬¦å­˜å…¥bufferä¸­ï¼Œ10è¿›åˆ¶çš„å½¢å¼
 			   str+='\n';
 			  }
 			  fputs(str.c_str(),finconfig);
-			  str.clear();//Ñ­»·Ğ´strµÄĞÎÊ½
+			  str.clear();//å¾ªç¯å†™strçš„å½¢å¼
 		  }
 		  fclose(fOut);
 		  fclose(fin);
@@ -239,7 +239,7 @@ public:
 	}
 
 
-	//½âÑ¹Ëõ
+	//è§£å‹ç¼©
 	void unCompress(const char* filename)
 	{
 		 string configfilename=filename;
@@ -254,7 +254,7 @@ public:
 			  {
 			   str+='\n';
 			  }
-			  //½«ÅäÖÃÎÄ¼şÖĞ±£´æµÄ×Ö·û¸ñÊ½×ª»¯Îª´ÎÊı£ºa,4;b,3;c,2;d,1
+			  //å°†é…ç½®æ–‡ä»¶ä¸­ä¿å­˜çš„å­—ç¬¦æ ¼å¼è½¬åŒ–ä¸ºæ¬¡æ•°ï¼ša,4;b,3;c,2;d,1
 			  else
 			  {
 			  _infos[(unsigned char)str[0]]._count=atoi(str.substr(2).c_str());
@@ -262,10 +262,10 @@ public:
 			  }
 		 }
 
-		//ÖØ½¨¹ş¸¥ÂüÊ÷
+		//é‡å»ºå“ˆå¼—æ›¼æ ‘
 		 charInfo invalid(0);
 		 HaffmanTree<charInfo >tree(_infos,256,invalid);
-		 //¶ÁÈ¡Ñ¹ËõÎÄ¼ş½øĞĞ»¹Ô­
+		 //è¯»å–å‹ç¼©æ–‡ä»¶è¿›è¡Œè¿˜åŸ
 		 charCount=tree.GetrootNode()->_weight._count ;
 		 string Compressfilename=filename;
 		 Compressfilename+=".compress";
@@ -373,7 +373,7 @@ void compressTest()
  //char *filename="file.txt";
  fc.Compress("dawenjian.txt"); 
 double finish_time=clock();
- cout<<"Ñ¹ËõÊ±¼äÊÇ£º"<<finish_time-start_time<<"ms"<<endl;
+ cout<<"å‹ç¼©æ—¶é—´æ˜¯ï¼š"<<finish_time-start_time<<"ms"<<endl;
 
 }
 
@@ -385,6 +385,6 @@ void uncompressTest()
 	double start_time=clock();
 	fc.unCompress ("dawenjian.txt");
 	double finish_time=clock();
-	cout<<"Ñ¹ËõÊ±¼äÊÇ£º"<<finish_time-start_time<<"ms"<<endl;
+	cout<<"è§£å‹ç¼©æ—¶é—´æ˜¯ï¼š"<<finish_time-start_time<<"ms"<<endl;
 
 }
