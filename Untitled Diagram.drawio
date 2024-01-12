@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-12T03:49:14.968Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15" etag="zsljIr9cMtGfRzJnwAmu" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-12T03:54:10.374Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15" etag="iSkX7uHN5GSgAk-AzgF9" version="22.1.17" type="github">
   <diagram name="Page-1" id="CJtnHfpUsZ9BrQnCdjfV">
     <mxGraphModel dx="2389" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -44,7 +44,7 @@
         <mxCell id="TrbnlO7_vF9YdsP_qfQX-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;strokeColor=#00A3D7;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-610" y="380" as="sourcePoint" />
-            <mxPoint x="-410" y="380" as="targetPoint" />
+            <mxPoint x="-420" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TrbnlO7_vF9YdsP_qfQX-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;strokeColor=#00A3D7;strokeWidth=3;" edge="1" parent="1" source="TrbnlO7_vF9YdsP_qfQX-1">
@@ -79,7 +79,7 @@
         </mxCell>
         <mxCell id="TrbnlO7_vF9YdsP_qfQX-20" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00A3D7;strokeWidth=3;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-370" y="380" as="sourcePoint" />
+            <mxPoint x="-360" y="380" as="sourcePoint" />
             <mxPoint x="-330" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -233,13 +233,13 @@
             <mxPoint x="-120" y="329" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TrbnlO7_vF9YdsP_qfQX-81" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;$$\mathbb{I}_{(\bar{o}=0)}$$&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;opacity=40;fillColor=#FFCC99;strokeColor=#ff6a00;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="TrbnlO7_vF9YdsP_qfQX-81" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;$$\mathbb{I}_{(\bar{o}=0)}$$&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;opacity=40;fillColor=#FFCC99;strokeColor=#ff6a00;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-150" y="359" width="60.28" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="TrbnlO7_vF9YdsP_qfQX-87" value="&lt;span style=&quot;&quot;&gt;Region&lt;br&gt;Level&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;opacity=40;fillColor=#FFCC99;strokeColor=#ff6a00;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-410.28" y="360" width="40.28" height="40" as="geometry" />
+        <mxCell id="TrbnlO7_vF9YdsP_qfQX-87" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Region&lt;br&gt;Level&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;opacity=40;fillColor=#FFCC99;strokeColor=#ff6a00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="360" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TrbnlO7_vF9YdsP_qfQX-88" value="&lt;span style=&quot;&quot;&gt;Pixel&lt;br&gt;Level&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;opacity=40;fillColor=#FFCC99;strokeColor=#ff6a00;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="TrbnlO7_vF9YdsP_qfQX-88" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Pixel&lt;br&gt;Level&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;opacity=40;fillColor=#FFCC99;strokeColor=#ff6a00;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-249.99999999999997" y="440" width="40.28" height="40" as="geometry" />
         </mxCell>
       </root>
