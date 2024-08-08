@@ -19,11 +19,17 @@
             <mxPoint x="1090" y="698" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mdkt_m9Bespsr_sNn8Xt-4" value="&lt;font color=&quot;#00ff00&quot; style=&quot;font-size: 19px;&quot;&gt;Language feature map&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Mdkt_m9Bespsr_sNn8Xt-4" value="&lt;font color=&quot;#00cc00&quot; style=&quot;font-size: 19px;&quot;&gt;Language feature map&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1120" y="490" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Mdkt_m9Bespsr_sNn8Xt-6" value="$$L^{1} \in \mathbbm{R&lt;span style=&quot;background-color: initial;&quot;&gt;}$$&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="840" y="830" width="60" height="30" as="geometry" />
+        <mxCell id="Mdkt_m9Bespsr_sNn8Xt-7" value="&lt;font color=&quot;#00cc00&quot; style=&quot;font-size: 19px;&quot; face=&quot;SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace&quot;&gt;$$L^1 \in \mathbb{R}^{3 \times W \times H \times 3}$$&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mdkt_m9Bespsr_sNn8Xt-8" value="&lt;font color=&quot;#00cc00&quot; style=&quot;font-size: 19px;&quot; face=&quot;SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace&quot;&gt;$$L^2 \in \mathbb{R}^{3 \times W \times H \times 3}$$&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mdkt_m9Bespsr_sNn8Xt-9" value="&lt;font color=&quot;#00cc00&quot; style=&quot;font-size: 19px;&quot;&gt;Language feature map&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="700" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
