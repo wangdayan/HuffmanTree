@@ -10,7 +10,7 @@
         <mxCell id="ahB7fCFWOppxZNZ6RY8T-2" value="introduction" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="550" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ahB7fCFWOppxZNZ6RY8T-3" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;method&lt;/span&gt;&lt;/div&gt;&lt;div&gt;1、overview&lt;/div&gt;&lt;div&gt;2、downstream&lt;/div&gt;&lt;div&gt;3、&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ahB7fCFWOppxZNZ6RY8T-3" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;method&lt;/span&gt;&lt;/div&gt;&lt;div&gt;1、overview&lt;/div&gt;&lt;div&gt;2、downstream&lt;/div&gt;&lt;div&gt;3、训练损失&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="585" width="660" height="95" as="geometry" />
         </mxCell>
         <mxCell id="ahB7fCFWOppxZNZ6RY8T-4" value="experiments" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
