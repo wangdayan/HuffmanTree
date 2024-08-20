@@ -19,6 +19,12 @@
         <mxCell id="ahB7fCFWOppxZNZ6RY8T-5" value="demo" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="670" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="ahB7fCFWOppxZNZ6RY8T-6" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; vertical-align: middle; word-break: normal; font-size: 10px;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑; font-weight: bold;&quot;&gt;现有的&lt;/span&gt;&lt;span style=&quot;font-family: Arial; font-weight: bold;&quot;&gt;LangSplat&lt;/span&gt;&lt;span style=&quot;font-family: 微软雅黑; font-weight: bold;&quot;&gt;需要通过多张&lt;/span&gt;&lt;span style=&quot;font-family: 微软雅黑; font-weight: bold;&quot;&gt;多视角图片重建三维场景&lt;/span&gt;&lt;/p&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="60" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ahB7fCFWOppxZNZ6RY8T-7" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-align: center; direction: ltr; unicode-bidi: embed; vertical-align: middle; word-break: normal; font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px; font-family: 微软雅黑; color: black; font-weight: bold; font-style: normal;&quot;&gt;LangSplat&lt;/span&gt;&lt;span style=&quot;font-size: 10px; font-family: 微软雅黑; color: black; font-weight: bold; font-style: normal;&quot;&gt;需要一个场景训练一次、渲染一次&lt;/span&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="10" y="100" width="210" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
