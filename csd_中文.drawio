@@ -133,7 +133,7 @@
           <mxGeometry x="-170.57" y="324" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HhQ3mFNvIFXI_bh5DGD2-26" value="&lt;font&gt;&lt;span&gt;$$\mathbb{I}_{(\bar{o}=0)}\hat{o}_{old}$$&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="10" y="330" width="60" height="30" as="geometry" />
+          <mxGeometry x="12" y="330" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HhQ3mFNvIFXI_bh5DGD2-27" value="&lt;font&gt;$$\bar{o}$$&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="-140.72" y="519" width="60" height="30" as="geometry" />
