@@ -25,7 +25,7 @@
         <mxCell id="OPahia5jvo7uVA9FNbP1-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="460" y="236" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="OPahia5jvo7uVA9FNbP1-6" value="辅助分类头" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="OPahia5jvo7uVA9FNbP1-6" value="辅助头" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="460" y="259" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OPahia5jvo7uVA9FNbP1-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -206,7 +206,7 @@
         <mxCell id="OPahia5jvo7uVA9FNbP1-92" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=none;fillStyle=zigzag-line;" parent="1" vertex="1">
           <mxGeometry x="460" y="366.5" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="OPahia5jvo7uVA9FNbP1-93" value="辅助分类头" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="OPahia5jvo7uVA9FNbP1-93" value="辅助&lt;span style=&quot;background-color: transparent;&quot;&gt;头&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="460" y="388.5" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OPahia5jvo7uVA9FNbP1-94" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fillStyle=zigzag-line;" parent="1" vertex="1">
