@@ -41,16 +41,16 @@
           <mxGeometry x="448.74" y="238.5" width="180" height="240" as="geometry" />
         </mxCell>
         <mxCell id="l3TlzWnov_5CqVg26l9Q-20" value="&lt;font&gt;&lt;b&gt;真实标签&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="-270" y="-478.75" width="34" height="177.5" as="geometry" />
+          <mxGeometry x="-270" y="-482.75" width="34" height="177.5" as="geometry" />
         </mxCell>
         <mxCell id="l3TlzWnov_5CqVg26l9Q-21" value="&lt;font&gt;&lt;b&gt;真实标签&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="-270" y="62.5" width="34" height="155" as="geometry" />
+          <mxGeometry x="-270" y="38.5" width="34" height="155" as="geometry" />
         </mxCell>
         <mxCell id="l3TlzWnov_5CqVg26l9Q-22" value="&lt;span&gt;&lt;b&gt;预测结果&lt;/b&gt;&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="-270" y="-201.5" width="34" height="155" as="geometry" />
+          <mxGeometry x="-270" y="-215.5" width="34" height="155" as="geometry" />
         </mxCell>
         <mxCell id="l3TlzWnov_5CqVg26l9Q-23" value="&lt;span&gt;&lt;b&gt;预测结果&lt;/b&gt;&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="-270" y="312" width="33" height="155" as="geometry" />
+          <mxGeometry x="-270" y="281" width="33" height="155" as="geometry" />
         </mxCell>
         <mxCell id="l3TlzWnov_5CqVg26l9Q-24" value="" style="endArrow=none;dashed=1;html=1;rounded=0;dashPattern=12 12;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
