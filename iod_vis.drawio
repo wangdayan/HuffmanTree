@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="26.0.14">
   <diagram name="第 1 页" id="Fi31O1x2nVzfq4Nf3nTB">
-    <mxGraphModel dx="1961" dy="1832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3474" dy="2716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -41,16 +41,16 @@
           <mxGeometry x="583" y="385" width="214.5" height="286" as="geometry" />
         </mxCell>
         <mxCell id="l3TlzWnov_5CqVg26l9Q-20" value="&lt;font&gt;&lt;b&gt;真实标签&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" parent="1" vertex="1">
-          <mxGeometry x="-330" y="-447.5" width="70" height="155" as="geometry" />
+          <mxGeometry x="-300" y="-458.75" width="40" height="177.5" as="geometry" />
         </mxCell>
         <mxCell id="l3TlzWnov_5CqVg26l9Q-21" value="&lt;font&gt;&lt;b&gt;真实标签&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" parent="1" vertex="1">
-          <mxGeometry x="-330" y="160.5" width="70" height="155" as="geometry" />
+          <mxGeometry x="-300" y="160.5" width="40" height="155" as="geometry" />
         </mxCell>
         <mxCell id="l3TlzWnov_5CqVg26l9Q-22" value="&lt;span&gt;&lt;b&gt;预测结果&lt;/b&gt;&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" parent="1" vertex="1">
-          <mxGeometry x="-330" y="-141" width="70" height="155" as="geometry" />
+          <mxGeometry x="-305" y="-141" width="50" height="155" as="geometry" />
         </mxCell>
         <mxCell id="l3TlzWnov_5CqVg26l9Q-23" value="&lt;span&gt;&lt;b&gt;预测结果&lt;/b&gt;&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" parent="1" vertex="1">
-          <mxGeometry x="-330" y="450.5" width="70" height="155" as="geometry" />
+          <mxGeometry x="-305" y="450.5" width="50" height="155" as="geometry" />
         </mxCell>
         <mxCell id="l3TlzWnov_5CqVg26l9Q-24" value="" style="endArrow=none;dashed=1;html=1;rounded=0;dashPattern=12 12;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
