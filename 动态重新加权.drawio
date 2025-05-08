@@ -14,7 +14,7 @@
           <mxGeometry x="148" y="236.5" width="50" height="69" as="geometry" />
         </mxCell>
         <mxCell id="mW5vK_5VpGZGRlMtQD_5-6" value="EMA" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="164" y="270" width="60" height="30" as="geometry" />
+          <mxGeometry x="203" y="284" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mW5vK_5VpGZGRlMtQD_5-7" value="$$c_{m}$$" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="250" y="290" width="60" height="30" as="geometry" />
@@ -27,6 +27,12 @@
         </mxCell>
         <mxCell id="mW5vK_5VpGZGRlMtQD_5-9" value="$$s_{m}^{j}$$" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="143" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mW5vK_5VpGZGRlMtQD_5-10" value="类别&lt;div&gt;置信度&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="199" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mW5vK_5VpGZGRlMtQD_5-11" value="目标&lt;br&gt;&lt;div&gt;置信度&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="184" y="199" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
