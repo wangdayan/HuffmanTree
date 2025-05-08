@@ -13,6 +13,21 @@
         <mxCell id="mW5vK_5VpGZGRlMtQD_5-4" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="148" y="236.5" width="50" height="69" as="geometry" />
         </mxCell>
+        <mxCell id="mW5vK_5VpGZGRlMtQD_5-6" value="EMA" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="164" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mW5vK_5VpGZGRlMtQD_5-7" value="$$c_{m}$$" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mW5vK_5VpGZGRlMtQD_5-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="305.5" as="sourcePoint" />
+            <mxPoint x="260" y="305.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mW5vK_5VpGZGRlMtQD_5-9" value="$$s_{m}^{j}$$" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="143" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
